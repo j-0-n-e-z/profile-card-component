@@ -10,7 +10,7 @@
 	}
 
 	.card-state-item--heading {
-		@apply font-bold text-lg;
+		@apply font-bold text-lg text-veryDarkDesaturatedBlue;
 	}
 
 	.card-stat-item--title {
