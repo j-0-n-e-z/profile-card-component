@@ -535,6 +535,8 @@ video {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 700;
+  --tw-text-opacity: 1;
+  color: hsl(229 23% 23% / var(--tw-text-opacity));
 }
 
 .card-stat-item--title{
