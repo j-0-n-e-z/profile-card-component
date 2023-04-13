@@ -5,15 +5,15 @@
 @tailwind utilities;
 
 @layer components {
-	.card-stat-item {
+	.stat-item {
 		@apply flex flex-col items-center lg:w-[50px] w-10;
 	}
 
-	.card-state-item--heading {
+	.stat-item__heading {
 		@apply font-bold text-lg text-veryDarkDesaturatedBlue;
 	}
 
-	.card-stat-item--title {
+	.stat-item__title {
 		@apply text-darkGray text-[12px] tracking-wider;
 	}
 }
