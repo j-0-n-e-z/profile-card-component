@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 module.exports = {
 	content: ['./dist/**/*.{html,js}'],
 	theme: {
@@ -11,6 +13,9 @@ module.exports = {
 			},
 			fontSize: {
 				base: '18px'
+			},
+			fontFamily: {
+				KumbhSans: ['Kumbh Sans', ...defaultTheme.fontFamily.sans]
 			},
 			backgroundImage: {
 				patternBackground:
